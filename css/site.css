@@ -1,0 +1,16 @@
+.listDiv {
+  display: block;
+  text-align: center;
+}
+.listLI {
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(243, 243, 243);
+  padding: 10px;
+  vertical-align: top;
+  width: 250px;
+}
+.previewImage {
+  width: 100%;
+  max-width: 100%;
+}
