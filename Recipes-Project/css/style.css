@@ -1,0 +1,55 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.searchDiv {
+  text-align: center;
+  font-size: 16px;
+}
+.searchText {
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(251, 253, 255);
+}
+
+.listLI {
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(243, 243, 243);
+  padding: 10px;
+  vertical-align: top;
+  width: 250px;
+  height: 300px;
+  vertical-align: text-bottom;
+}
+/* .listLI [src="undefined"] {
+  display: none;
+} */
+.previewImage {
+  width: 100%;
+  max-width: 100%;
+}
+.previewDetails {
+  margin: 10px;
+}
+.previewTitle {
+  padding-bottom: 5px;
+}
+
+.previewImage {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.listLI [src="undefined"] {
+  display: none;
+}
+.panel {
+  background-image: url(/images/frontcover.jpg);
+  height: 200px;
+  background-size: cover;
+  color: white;
+}

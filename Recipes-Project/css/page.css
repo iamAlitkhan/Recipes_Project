@@ -1,0 +1,48 @@
+.recipeDetailsDiv {
+  display: block;
+}
+.recipeDetailsDiv {
+  background-color: lightgray;
+  margin-top: 100px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.recipeImage {
+  width: 100%;
+}
+
+.nutrientLI {
+  display: inline-block;
+  list-style: none;
+
+  padding: 8px;
+}
+.nutrientsUL {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ingredientLI {
+  padding-bottom: 5px;
+}
+
+.both {
+  display: flex;
+  text-align: center;
+}
+.stepsLI {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  vertical-align: top;
+}
+.stepNumber {
+  margin-right: 40px;
+}
+.stepsUL {
+  padding-left: 0;
+}
